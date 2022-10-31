@@ -68,7 +68,7 @@ h2{
     letter-spacing: 3px;
 }
 
-@media(min-width : 1278px){
+@media(min-width : 1270px){
     .msg{
         display: none;
     }
@@ -76,7 +76,7 @@ h2{
 
 
 
-@media(max-width: 1278px){
+@media(max-width: 1270px){
     .container{
         display: none;
     }
