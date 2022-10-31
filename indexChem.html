@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry Cycle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+       
+        <div class="left-box">
+            <h1>Results</h1>
+            <div class="p-g-t">
+                <h2>Percentage - <span class="per"></span></h2>
+                <h2>GPA - <span class="gpa"></span></h2>
+                <h2>Total - <span class="total"></span></h2>
+              
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <h4>Advanced Calculus and Numerical Methods</h4>
+                <input type="number" id="mat" placeholder="21MAT21" min="0" max="100" />
+                <h4>Engineering Chemistry</h4>
+                <input type="number" id="chem" placeholder="21CHE22" min="0" max="100" />
+                <h4>Problem Solving Through Programming</h4>
+                <input type="number" id="psp" placeholder="21PSP23" min="0" max="100" />
+                <h4>Basic Electronics & Communication Engineering</h4>
+                <input type="number" id="eln" placeholder="21ELN24" min="0" max="100" />
+                <h4>Elements of Mechanical Engineering</h4>
+                <input type="number" id="eme" placeholder="21EME25" min="0" max="100" />
+                <h4>Professional Writing Skills in English</h4>
+                <input type="number" id="eng" placeholder="21EGH28" min="0" max="100" />
+                <h4>Scientific Foundation of Health</h4>
+                <input type="number" id="sfh" placeholder="21SFH29" min="0" max="100" />
+                <h4>Engineering Chemistry Laboratoray</h4>
+                <input type="number" id="chemL" placeholder="21CHEML26" min="0" max="100" />
+                <h4>Computer Programming Laboratory</h4>
+                <input type="number" id="cpl" placeholder="21CPL27" min="0" max="100" />
+                <button type="button" onclick="show_result()">Show Results</button>
+               
+            </div>
+        </div>
+        
+        <div class="result">
+            <h2>Designed by Ayaan</h2>
+        </div>
+    </div>
+    <script src="mainChem.js"></script>
+</body>
+
+</html>

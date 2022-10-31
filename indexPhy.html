@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry Cycle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left-box">
+            <h1>Results</h1>
+            <div class="p-g-t">
+                <h2>Percentage - <span class="per"></span></h2>
+                <h2>GPA - <span class="gpa"></span></h2>
+                <h2>Total - <span class="total"></span></h2>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <h4>Advanced Calculus and Numerical Methods</h4>
+                <input type="number" id="mat1" placeholder="21MAT21" min="0" max="100" />
+                <h4>Engineering Physics</h4>
+                <input type="number" id="phy" placeholder="21PHY22" min="0" max="100" />
+                <h4>Basic Electrical Engineering</h4>
+                <input type="number" id="ele" placeholder="21ELE23" min="0" max="100" />
+                <h4>Elements of civil Engineering</h4>
+                <input type="number" id="civ" placeholder="21CIV24" min="0" max="100" />
+                <h4>Engineering Graphics</h4>
+                <input type="number" id="egdl" placeholder="21EGDL25" min="0" max="100" />
+                <h4>Professional Writing Skills in English</h4>
+                <input type="number" id="eng1" placeholder="21EGH28" min="0" max="100" />
+                <h4>Innovation and Design Thinking</h4>
+                <input type="number" id="idt" placeholder="21IDT19" min="0" max="100" />
+                <h4>Basic Physics Laboratoray</h4>
+                <input type="number" id="phyL" placeholder="21PHYL26" min="0" max="100" />
+                <h4>Basic Electrical Laboratoray</h4>
+                <input type="number" id="eleL" placeholder="21ELE27" min="0" max="100" />
+                <button type="button" onclick="show_result()">Show Result</button>
+
+            </div>
+        </div>
+
+        <div class="result">
+            <h2>Designed by Ayaan</h2>
+        </div>
+    </div>
+    <script src="mainPhy.js"></script>
+</body>
+
+</html>
